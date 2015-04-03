@@ -14,6 +14,8 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+    <script src="//use.typekit.net/fci1nnn.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
   </head>
   <body ng-app="dataPortalApp">
     <!--[if lt IE 7]>
@@ -21,42 +23,55 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
+    <div class="body-wrapper">
     <div class="header">
       <div class="navbar navbar-default" role="navigation">
         <div class="container">
           <div class="navbar-header">
 
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navish">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#/">dataPortal</a>
+            <a class="navbar-brand" href="#/">MASSdata</a>
           </div>
 
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+          <div class="collapse navbar-collapse" id="navish">
 
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/about">About</a></li>
-              <li><a ng-href="#/">Contact</a></li>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#/">HOME</a></li>
+              <li><a ng-href="#/about">RESOURCES</a></li>
+              <li><a ng-href="#/about">ABOUT</a></li>
+              <li><a ng-href="#/">ENTER DATA CATALOG</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="container">
-    <div ng-view=""></div>
+    <div class="head-grp">
+       <div class="img-grp">
+          <img class="img-responsive"  src="http://placehold.it/1280x400/dda037.png&text=..." alt="Head Image" role="img">
+       </div>
+       <div class="head-text">
+          <p>Welcome to Mass</p><p>Data</p>
+          <p>The open data portal for the commonwealth of Massachusetts</p>
+       </div>
     </div>
+       
+    <div class="container">
+      <div ng-view=""></div>
+    </div>
+    
 
     <div class="footer">
       <div class="container">
         <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
       </div>
     </div>
+   </div><!--.body-wrapper --> 
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
