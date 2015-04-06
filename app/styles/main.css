@@ -44,6 +44,7 @@ html body {
   margin: 0;
   border: 0;
   border-radius: 0;
+  border-bottom: 3px solid #FFFFFF;
 }
 .navbar-default{
   background-color: #404040;
@@ -91,14 +92,28 @@ html body {
 .section-bar{
   background-color: #dda037;
   color: #FFFFFF;
-  border-style: solid;
-  border-color: #FFFFFF;
+  border-top: 3px solid #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
   height: 50px;
   text-align: center;
   font-size: 2em;
 }
-.sub-bar{
+.bar-wrapper{
+  border-left: 3px solid #FFFFFF;
+  border-right: 3px solid #FFFFFF;
+  padding: 0px;
 
+}
+.sub-bar{
+  /*
+  border-left: 2px solid #FFFFFF;
+  border-right: 2px solid #FFFFFF;
+  */
+  height: 42px;
+}
+.sub-bar-center{
+  border-left: 3px solid #FFFFFF;
+  border-right: 3px solid #FFFFFF;
 }
 /* Main marketing message and sign up button */
 .jumbotron {
