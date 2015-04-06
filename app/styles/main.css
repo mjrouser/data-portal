@@ -18,7 +18,11 @@ html body {
                 Arial, 
                 sans-serif;
 }
-
+hr{
+  width: 400px;
+  color: black;
+  height: 2px;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -113,20 +117,37 @@ html body {
   border-right: 3px solid #FFFFFF;
 }
 
-.headliner{
+.headliner p{
   text-align: center;
-
+  font-size: 3em;
   padding: 50px 100px;
 }
-.headliner>p{
-  font-size: 3em;
-}
+
 
 .learn{
   text-align: center;
-  background-color: #f2f2f2 ;
+  background-color: #f2f2f2;
+  padding-bottom: 40px;
 }
-
+.learn h2{
+  font-style: italic;
+}
+.section-headline{
+  font-size: 5em;
+  text-align: center;
+}
+.section-subhead{
+  font-size: 2em;
+}
+.side-img{
+  float: left;
+}
+.row-cols{
+  padding-top: 40px;
+}
+.section-content{
+  font-size: 1.5em;
+}
 .explore{
 
 }
