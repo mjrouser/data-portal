@@ -33,11 +33,11 @@ html body {
   border-bottom: 1px solid #e5e5e5;
 }
 /* Make the masthead heading the same height as the navigation */
-.header h3 {
+.header {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
-  padding-bottom: 19px;
+
 }
 
 .navbar{
@@ -97,6 +97,7 @@ html body {
   height: 50px;
   text-align: center;
   font-size: 2em;
+
 }
 .bar-wrapper{
   border-left: 3px solid #FFFFFF;
@@ -105,34 +106,34 @@ html body {
 
 }
 .sub-bar{
-  /*
-  border-left: 2px solid #FFFFFF;
-  border-right: 2px solid #FFFFFF;
-  */
-  height: 42px;
+  height: 44px;
 }
 .sub-bar-center{
   border-left: 3px solid #FFFFFF;
   border-right: 3px solid #FFFFFF;
 }
-/* Main marketing message and sign up button */
-.jumbotron {
+
+.headliner{
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+
+  padding: 50px 100px;
 }
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+.headliner>p{
+  font-size: 3em;
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
+.learn{
+  text-align: center;
+  background-color: #f2f2f2 ;
 }
 
+.explore{
+
+}
+
+.build{
+  background-color: #f2f2f2;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
