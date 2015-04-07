@@ -83,6 +83,7 @@ html body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+  background-color: #404040;
 }
 
 .container-narrow > hr {
@@ -160,10 +161,35 @@ html body {
 
 }
 .btn-xl{
+  background-color: #dda037;
+  border-radius: 3px;
+  color: #FFFFFF;
+  font-size: 3em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .btn-view{
-
+  background-color: #dda037;
+  border-radius: 3px;
+  color: #FFFFFF;
+  font-size: 1.75em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btn-view-gray{
+  background-color: #c1c1c1;
+  border-radius: 3px;
+  color: #FFFFFF;
+  font-size: 1.75em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 30%;
+  margin: 0 auto;  
 }
 .btn-view-col{
   background-color: #c1c1c1;
