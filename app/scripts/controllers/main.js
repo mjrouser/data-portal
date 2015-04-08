@@ -8,10 +8,20 @@
  * Controller of the dataPortalApp
  */
 angular.module('dataPortalApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, $location, $anchorScroll) {
+     $scope.gotoLearn = function(){
+     	$location.hash('learn');
+
+     	$anchorScroll();
+     };
+     $scope.gotoExplore = function(){
+     	$location.hash('explore');
+
+     	$anchorScroll();
+     };
+     $scope.gotoBuild = function(){
+     	$location.hash('build');
+
+     	$anchorScroll();
+     };
   });

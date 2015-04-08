@@ -2,12 +2,12 @@
 
 
   <div data-spy="affix" data-offset-top="450">
-     <div class="row section-bar" ng-controller="NavCtrl">
+     <div class="row section-bar" >
       <div class="container bar-wrapper">
        
-         <div class="col-md-4 sub-bar" ng-class="navClass('learn')"><a  href="#/learn"  aria-controls="learn"><div class="press-me">Learn</div></a></div>
-         <div class="col-md-4 sub-bar sub-bar-center" ng-class="navClass('explore')"><a data-target="#/explore" href=""  aria-controls="explore" ><div class="press-me">Explore</div></a></div>
-         <div class="col-md-4 sub-bar" ng-class="navClass('build')"><a data-target="#/build" href=""  aria-controls="build" ><div class="press-me">Build</div></a></div>
+         <div class="col-md-4 sub-bar" ><a ng-click="gotoLearn()"   aria-controls="learn"><div class="press-me">Learn</div></a></div>
+         <div class="col-md-4 sub-bar sub-bar-center" ><a ng-click="gotoExplore()"  aria-controls="explore" ><div class="press-me">Explore</div></a></div>
+         <div class="col-md-4 sub-bar"><a ng-click="gotoBuild()"  aria-controls="build" ><div class="press-me">Build</div></a></div>
        </div>
      </div>
   </div> 
@@ -101,7 +101,7 @@
         <p class="section-content">
           Commonwealth Connect data comes from the open 311 requests filled by citizens across the state using the Citizens' and Commonwealth Connect mobile apps.
         </p>
-        <a href="#"><div class="btn-view">VIEW VISUALIZATION</div></a>
+        <a href="#/"><div class="btn-view">VIEW VISUALIZATION</div></a>
        </div>
       </div>  
        <div class="row row-cols">
@@ -113,7 +113,7 @@
              <p class="section-content viz-content">
                MassData is a place for research, visualization and the exploration of existing public data sets in the Commonwealth.  By Providing easy, user-friendly access to open data is a conerstone of the Commonwealth's digital strategy for driving innovation.
              </p>
-             <a href="#"><div class="btn-view-col">VIEW VISUALIZATION</div></a>
+             <a href="#/"><div class="btn-view-col">VIEW VISUALIZATION</div></a>
            </div>
            <div class="col-md-4">
              <img class="" src="http://placehold.it/300x200/c1c1c1.png&text=Small Vis" alt="">
@@ -123,7 +123,7 @@
              <p class="section-content viz-content">
                MassData is a place for research, visualization and the exploration of existing public data sets in the Commonwealth.  By Providing easy, 
              </p>
-             <a href="#"><div class="btn-view-col">VIEW VISUALIZATION</div></a>
+             <a href="#/"><div class="btn-view-col">VIEW VISUALIZATION</div></a>
            </div>
            <div class="col-md-4">
              <img class="" src="http://placehold.it/300x200/c1c1c1.png&text=Small Vis" alt="">
@@ -133,7 +133,7 @@
              <p class="section-content viz-content">
                MassData is a place for research, visualization and the exploration of existing public data sets in the Commonwealth.  By Providing easy, user-friendly access to open data is a conerstone of the Commonwealth's digital strategy for driving innovation.
              </p>
-             <a href="#"><div class="btn-view-col">VIEW VISUALIZATION</div></a>
+             <a href="#/"><div class="btn-view-col">VIEW VISUALIZATION</div></a>
            </div>
        </div>
    </div>   
@@ -154,8 +154,8 @@
         <p class="section-subhead">
           Check out available open data and begin unlocking opportunities here. For developers, check out the links to API documentation.
         </p>
-        <a href="#"><div class="btn-xl">GO TO SOCRATA PORTAL</div></a>
-        <a href="#"><div class="btn-view-gray">VIEW SOCRATA API DOCUMENTATION</div></a>
+        <a href="#/"><div class="btn-xl">GO TO SOCRATA PORTAL</div></a>
+        <a href="#/"><div class="btn-view-gray">VIEW SOCRATA API DOCUMENTATION</div></a>
       </div>
       <div class="row row-cols">
            <div class="col-md-4">
@@ -168,7 +168,7 @@
              <p class="section-content viz-content">
                MassData is a place for research, visualization and the exploration of existing public data sets in the Commonwealth.  By Providing easy, user-friendly access to open data is a conerstone of the Commonwealth's digital strategy for driving innovation.
              </p>
-             <a href="#"><div class="btn-view-col">VIEW TRAINING</div></a>
+             <a href="#/"><div class="btn-view-col">VIEW TRAINING</div></a>
            </div>
            <div class="col-md-4">
              <img class="" src="http://placehold.it/300x200/c1c1c1.png&text=Small Vis" alt="">
@@ -180,7 +180,7 @@
              <p class="section-content viz-content">
                
              </p>
-             <a href="#"><div class="btn-view-col">VIEW TRAINING</div></a>
+             <a href="#/"><div class="btn-view-col">VIEW TRAINING</div></a>
            </div>
            <div class="col-md-4">
              <img class="" src="http://placehold.it/300x200/c1c1c1.png&text=Small Vis" alt="">
@@ -192,7 +192,7 @@
              <p class="section-content viz-content">
                
              </p>
-             <a href="#"><div class="btn-view-col">VIEW TRAINING</div></a>
+             <a href="#/"><div class="btn-view-col">VIEW TRAINING</div></a>
            </div>
        </div>
      </div>
