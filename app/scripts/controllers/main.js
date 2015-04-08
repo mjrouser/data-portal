@@ -9,6 +9,7 @@
  */
 angular.module('dataPortalApp')
   .controller('MainCtrl', function ($scope, $location, $anchorScroll) {
+  	//Functions for in-page nav
      $scope.gotoLearn = function(){
      	$location.hash('learn');
 
@@ -24,4 +25,9 @@ angular.module('dataPortalApp')
 
      	$anchorScroll();
      };
+     //keeps column elements at same hight to alight buttons
+     angular.element('.viz-content').responsiveEqualHeightGrid();
+     angular.element('.viz-title').responsiveEqualHeightGrid();
+     angular.element('.viz-content-2').responsiveEqualHeightGrid();
+
   });
