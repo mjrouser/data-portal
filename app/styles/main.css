@@ -13,8 +13,8 @@
 html body {
   
   
-  font-family: "ff-good-headline-web-pro-con", 
-                "Arial Narrow", 
+  font-family: "proxima-nova, 
+                'Arial Narrow'", 
                 Arial, 
                 sans-serif;
 }
@@ -134,6 +134,7 @@ html body {
   font-style: italic;
 }
 .section-headline{
+  font-family: "ff-good-headline-web-pro-con";
   font-size: 5em;
   text-align: center;
 }
