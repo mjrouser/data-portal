@@ -25,9 +25,18 @@ angular.module('dataPortalApp')
 
      	$anchorScroll();
      };
+     //sticky for orange sub-nav
+     angular.element(document).ready(function(){
+     	angular.element('#sticky').affix({
+     		offset:{
+     			top: 475
+     		}
+     	});
+     });
      //keeps column elements at same hight to alight buttons
      angular.element('.viz-content').responsiveEqualHeightGrid();
      angular.element('.viz-title').responsiveEqualHeightGrid();
      angular.element('.viz-content-2').responsiveEqualHeightGrid();
+
 
   });

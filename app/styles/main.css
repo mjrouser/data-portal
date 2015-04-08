@@ -93,11 +93,6 @@ html body {
 .row{
   margin: 0;
 }
-.bar-wrapper{
-  border-left: 3px solid #FFFFFF;
-  border-right: 3px solid #FFFFFF;
-  padding: 0px;
-}
 .section-bar{
   background-color: #dda037;
   color: #FFFFFF;
@@ -106,6 +101,27 @@ html body {
   height: 50px;
   text-align: center;
   font-size: 2em;
+  z-index: 1000;
+}
+
+#sticky.affix{
+  position: fixed; 
+  top: 0px;
+  width: 89.2%;
+}
+
+/*
+.section-bar.affix-top{
+  position: static;
+  }
+.section-bar.affix-bottom{
+  position: absolute;
+}
+*/
+.bar-wrapper{
+  border-left: 3px solid #FFFFFF;
+  border-right: 3px solid #FFFFFF;
+  padding: 0px;
 }
 .sub-bar{
   height: 44px;
@@ -136,6 +152,7 @@ html body {
 .section-headline{
   font-size: 5em;
   text-align: center;
+  padding-top: 4%;
 }
 .section-subhead{
   font-size: 2em;
