@@ -144,17 +144,8 @@ h1, h2, h3, h4, h5, h6 {
 #sticky.affix{
   position: fixed; 
   top: 0px;
-  width: 89.2%;
+  width: 91.3%;
 }
-
-/*
-.section-bar.affix-top{
-  position: static;
-  }
-.section-bar.affix-bottom{
-  position: absolute;
-}
-*/
 .bar-wrapper{
   border-left: 3px solid #FFFFFF;
   border-right: 3px solid #FFFFFF;
