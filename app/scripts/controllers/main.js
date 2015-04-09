@@ -34,6 +34,7 @@ angular.module('dataPortalApp')
      	});
      });
      //keeps column elements at same hight to align buttons
+     
      angular.element('.viz-content').responsiveEqualHeightGrid();
      angular.element('.viz-title').responsiveEqualHeightGrid();
      angular.element('.viz-content-2').responsiveEqualHeightGrid();
