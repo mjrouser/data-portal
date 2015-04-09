@@ -11,12 +11,42 @@
 }
 
 html body {
-  
-  
-  font-family: "proxima-nova, 
-                'Arial Narrow'", 
-                Arial, 
-                sans-serif;
+  font-family: "Proxima Nova", "proxima-nova", Arial, sans-serif;
+  color: #544a36;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  font-variant: normal;
+  font-style: normal;
+  color: #000;
+}
+.fa{
+  color:#000;
+}
+.caption{
+  font-family: "adobe-caslon-pro", "Garamond", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 600;
+}
+.main_caption{
+  color:#FFF;
+  font-size:2.5em;
+}
+.section_caption{
+  color:#000;
+  font-size:3em;
+  margin-top:0;
+  margin-bottom:.4em;
+}
+.item_caption{
+  color:#000;
+  font-size:1.5em;
+  margin-top:0;
+  margin-bottom:.4em;
+}
+.featured_item{
+  font-size:2.25em ;
 }
 .section-break{
   width: 400px;
@@ -41,9 +71,11 @@ html body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
-
 }
-
+/*This may be temporary*/
+.head-grp{
+  background-color: #404040;
+}
 .navbar{
   margin: 0;
   border: 0;
@@ -62,15 +94,20 @@ html body {
    position: relative;
    padding-top: 7%;
    text-align: center;
+   color:#FFF;
 }
 .head-text>p{
   margin: 0;
   font-size: 5em;
-  color: #FFFFFF ;
-}
-.head-text>h2{
-  font-style: italic;
   color: #FFFFFF;
+}
+.head-text>h1{
+  text-transform: uppercase; /*Not working*/
+  font-size: 7em;
+  color: #FFFFFF;
+}
+.head-text>h1>span {
+  color: #dda037;
 }
 
 .content-wrapper{
@@ -130,13 +167,13 @@ html body {
   text-align: center;
   padding-bottom: 40px;
 }
-.section h2{
-  font-style: italic;
-}
+
 .section-headline{
-  font-family: "ff-good-headline-web-pro-con";
+  font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
   font-size: 5em;
   text-align: center;
+  color: #000;
+  margin-bottom:0;
 }
 .section-subhead{
   font-size: 2em;
@@ -150,6 +187,7 @@ html body {
 }
 .section-content{
   font-size: 1.5em;
+  text-align: left;
 
 }
 .viz-title{
@@ -162,6 +200,7 @@ html body {
 
 }
 .btn-xl{
+  font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
   background-color: #dda037;
   border-radius: 3px;
   color: #FFFFFF;
@@ -176,6 +215,7 @@ html body {
 
 }
 .btn-view{
+  font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
   background-color: #dda037;
   border-radius: 3px;
   color: #FFFFFF;
@@ -184,16 +224,18 @@ html body {
   padding-bottom: 10px;
 }
 .btn-view-gray{
+  font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
   background-color: #c1c1c1;
   border-radius: 3px;
   color: #FFFFFF;
   font-size: 1.75em;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 30%;
+  width: 50%;
   margin: 0 auto;  
 }
 .btn-view-col{
+  font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
   background-color: #c1c1c1;
   border-radius: 3px;
   color: #FFFFFF;
@@ -202,6 +244,7 @@ html body {
   padding-bottom: 10px;
 }
 .btn-nav{
+  font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
   background-color: #dda037;
   border-radius: 3px;
   color: #FFFFFF;
