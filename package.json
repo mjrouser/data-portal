@@ -2,10 +2,16 @@
   "name": "dataportal",
   "version": "0.0.0",
   "dependencies": {},
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "version": "0.3.1",
+    "private": "true",
+    "url": "https://github.com/massgov/data-portal"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-autoprefixer": "^2.0.0",
+    "grunt-build-control": "^0.4.0",
     "grunt-concurrent": "^1.0.0",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-concat": "^0.5.0",
@@ -24,6 +30,7 @@
     "grunt-svgmin": "^2.0.0",
     "grunt-usemin": "^3.0.0",
     "grunt-wiredep": "^2.0.0",
+    "gulp": "^3.8.11",
     "jshint-stylish": "^1.0.0",
     "load-grunt-tasks": "^3.1.0",
     "time-grunt": "^1.0.0"
