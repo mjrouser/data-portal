@@ -60,6 +60,10 @@ hr {
   color: black;
   height: 2px;
 }
+.thumb_img{
+  border-radius:3px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.15);
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -81,7 +85,6 @@ hr {
 }
 /*This may be temporary*/
 .head-grp{
-  background-color: #404040;
 }
 .navbar{
   margin: 0;
@@ -95,6 +98,9 @@ hr {
 
 .img-grp{
    position: absolute;
+   width:1280px; /*This seems weird, why is it absolute?*/
+   z-index:-1;
+   clip:rect(0px 1280px 400px 0);
 }
 .small_logo{
   vertical-align: bottom;
@@ -208,6 +214,7 @@ hr {
 .section-content{
   font-size: 1.5em;
   text-align: left;
+  margin-bottom:20px;
 }
 
 
