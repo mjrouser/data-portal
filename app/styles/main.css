@@ -21,8 +21,15 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   color: #000;
 }
+hr {
+  border-top:1px solid #ccc;
+}
 .fa{
   color:#000;
+}
+.video{
+  min-width:100%;
+  height:27em;
 }
 .caption{
   font-family: "adobe-caslon-pro", "Garamond", "Times New Roman", serif;
@@ -89,7 +96,11 @@ h1, h2, h3, h4, h5, h6 {
 .img-grp{
    position: absolute;
 }
-
+.small_logo{
+  vertical-align: bottom;
+  width:2.25em;
+  height:2.25em;
+}
 .head-text{
    position: relative;
    padding-top: 7%;
@@ -162,8 +173,9 @@ h1, h2, h3, h4, h5, h6 {
 .headliner p{
   text-align: center;
   font-size: 2.5em;
-  padding: 50px 25px;
-}
+  padding: 50px 0;
+/*  padding: 50px 25px;
+*/}
 
 .learn,
 .build{
