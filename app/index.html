@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MASSDATA</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <!-- endbuild -->
+    <script src="//use.typekit.net/fci1nnn.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body ng-app="dataPortalApp"  >
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="body-wrapper">
+    <div class="header">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navish">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#/">
+              <img class="small_logo" src="/images/ma_seal_small.png" />
+              MASS<span class="">data</span>
+            </a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navish">
+
+            <ul class="nav navbar-nav navbar-right">
+          
+              <li><a ng-href="#/"><div class="btn-nav">ENTER DATA CATALOG</div></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="head-grp">
+       <div class="img-grp">
+          <img class="img-responsive"  src="/images/statehouse.jpg" alt="Head Image" role="img">
+       </div>
+       <div class="head-text">
+          <h1>Welcome to Mass<span>Data<span></h1>
+          <div class="caption main_caption">The open data portal for the Commonwealth of Massachusetts</div>
+       </div>
+    </div>
+       
+     <!--  
+    <div class="container">
+      
+    </div>
+    -->
+    <div ng-view=""></div>
+    
+
+    <div class="footer">
+      <div class="container">
+        <a href="https://flic.kr/p/ip6vv" target="_blank">MA State House picture</a> taken by Flickr user <a href="https://www.flickr.com/photos/harshlight/" target="_blank">Harshlight</a> and licensed under <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">Creative Commons</a>. The image was slightly modified from its original state.
+        <br /><br />
+      </div>
+    </div>
+
+   </div><!--.body-wrapper --> 
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+ 
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/grids.min.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
