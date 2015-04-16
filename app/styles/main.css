@@ -161,7 +161,7 @@ hr {
 #sticky.affix{
   position: fixed; 
   top: 0px;
-  width: 91.3%;
+  width: 85%;
 }
 .bar-wrapper{
   border-left: 3px solid #FFFFFF;
