@@ -171,6 +171,10 @@ hr {
 .sub-bar{
   height: 44px;
 }
+.sub-bar a{
+  text-decoration: none;
+  cursor: pointer;
+}
 .sub-bar-center{
   border-left: 3px solid #FFFFFF;
   border-right: 3px solid #FFFFFF;
@@ -241,10 +245,17 @@ hr {
   font-size: 1.75em;
   padding-top: 10px;
   padding-bottom: 10px;
+  width:100%;
+  display: block;
+}
+.btn-view:hover{
+  background-color: #B3904F;
+  text-decoration: none;
+  color:#FFFFFF;
 }
 .btn-view-gray{
   font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
-  background-color: #c1c1c1;
+  background-color: #b0b0b0;
   border-radius: 3px;
   color: #FFFFFF;
   font-size: 1.75em;
@@ -255,12 +266,19 @@ hr {
 }
 .btn-view-col{
   font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
-  background-color: #c1c1c1;
+  background-color: #b0b0b0;
   border-radius: 3px;
   color: #FFFFFF;
   font-size: 1.5em;
   padding-top: 10px;
   padding-bottom: 10px;
+  display:block;
+  width:100%;
+}
+.btn-view-col:hover{
+  color:#FFFFFF;
+  background-color: #333333;
+  text-decoration:none;
 }
 .btn-nav{
   font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
@@ -270,8 +288,14 @@ hr {
   padding: 5px 10px;
   font-size: 1.5em;
 }
+.press-me{
+  color:#FFFFFF;
 
-
+}
+.press-me:hover{
+  background-color: #B3904F;
+  text-decoration: none;
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
