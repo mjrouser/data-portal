@@ -170,12 +170,15 @@ hr {
   border-right: 3px solid #FFFFFF;
   padding: 0px;
 }
-.sub-bar{
+/*.sub-bar{
   height: 44px;
-}
+}*/
 .sub-bar a{
   text-decoration: none;
   cursor: pointer;
+}
+.bar-wrapper > .col-md-4{
+  padding: 0px;
 }
 .sub-bar-center{
   border-left: 3px solid #FFFFFF;
@@ -222,8 +225,6 @@ hr {
   text-align: left;
   margin-bottom:20px;
 }
-
-
 .btn-xl{
   font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
   background-color: #dda037;
@@ -237,7 +238,12 @@ hr {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-
+  display: block;
+}
+.btn-xl:hover{
+  background-color: #B3904F;
+  text-decoration: none;
+  color:#FFFFFF;
 }
 .btn-view{
   font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
@@ -264,7 +270,13 @@ hr {
   padding-top: 10px;
   padding-bottom: 10px;
   width: 50%;
-  margin: 0 auto;  
+  margin: 0 auto;
+  display:block;
+}
+.btn-view-gray:hover{
+  color:#FFFFFF;
+  background-color: #333333;
+  text-decoration:none;
 }
 .btn-view-col{
   font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
@@ -290,8 +302,13 @@ hr {
   padding: 5px 10px;
   font-size: 1.5em;
 }
+.btn-nav:hover{
+  background-color: #B3904F;
+  text-decoration: none;
+}
 .press-me{
   color:#FFFFFF;
+  height:44px;
 
 }
 .press-me:hover{
