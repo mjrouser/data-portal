@@ -107,6 +107,9 @@ hr {
   width:2.25em;
   height:2.25em;
 }
+.head-img{
+  display: none;
+}
 .head-text{
    position: relative;
    padding-top: 7%;
@@ -156,7 +159,7 @@ hr {
   text-align: center;
   font-size: 2em;
   z-index: 1000;
-  width: 1280px;
+  width: 100%;
   position: relative;
 }
 
@@ -316,13 +319,10 @@ hr {
   text-decoration: none;
 }
 
-
-
-
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
   .container {
-    max-width: 1000px;
+    max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
@@ -332,12 +332,7 @@ hr {
     padding-left: 0;
     padding-right: 0;
   }
-  /* Space out the masthead */
-  .header {
-    
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+
 }
+
+
