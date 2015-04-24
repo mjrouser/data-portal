@@ -15,7 +15,7 @@ html body {
   color: #544a36;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
+  font-family: "FF Good Headline Pro Condensed", "ff-good-headline-web-pro-con", "Arial Narrow", Arial, sans-serif;
   font-weight: 500;
   font-variant: normal;
   font-style: normal;
@@ -32,7 +32,7 @@ hr {
   height:27em;
 }
 .caption{
-  font-family: "adobe-caslon-pro", "Garamond", "Times New Roman", serif;
+  font-family: "Adobe Caslon Pro", "adobe-caslon-pro", "Garamond", "Times New Roman", serif;
   font-style: italic;
   font-weight: 600;
 }
