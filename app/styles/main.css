@@ -86,16 +86,30 @@ hr {
 /*This may be temporary*/
 .head-grp{
 }
-.navbar{
+.top-bar{
+  height: 60px;
   margin: 0;
   border: 0;
   border-radius: 0;
   border-bottom: 3px solid #FFFFFF;
-}
-.navbar-default{
   background-color: #404040;
 }
-
+.top-bar .brand{
+  margin-left:15px;
+  color:#FFFFFF;
+  line-height: 1em;
+  margin-top:10px;
+  float:left;
+}
+.top-bar .brand div{
+  padding-left:10px;
+  padding-top:3px;
+  float:left;
+  font-size: .75em
+}
+.top-bar .brand a, .footer a{
+  color:#d0d0d0;
+}
 .img-grp{
    position: absolute;
    width:1280px; /*This seems weird, why is it absolute?*/
@@ -106,6 +120,7 @@ hr {
   vertical-align: bottom;
   width:2.25em;
   height:2.25em;
+  float:left;
 }
 .head-text{
    position: relative;
@@ -297,8 +312,11 @@ hr {
   background-color: #dda037;
   border-radius: 3px;
   color: #FFFFFF;
-  padding: 5px 10px;
+  padding: 0 10px;
   font-size: 1.5em;
+  float:right;
+  margin-right:15px;
+  margin-top:7px;
 }
 .btn-nav:hover{
   background-color: #B3904F;
