@@ -1,3 +1,10 @@
+/*Test CSS*/
+
+.cartodb-timeslider{
+  display:none;
+}
+
+/*Main CSS*/
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -30,6 +37,9 @@ hr {
 .video{
   min-width:100%;
   height:27em;
+}
+.header-viz{
+  float:left;
 }
 .caption{
   font-family: "Adobe Caslon Pro", "adobe-caslon-pro", "Garamond", "Times New Roman", serif;
@@ -120,6 +130,9 @@ hr {
    z-index:-1;
    clip:rect(0px 1280px 400px 0);
 }
+.fallback-header-img{
+  z-index: -1;
+}
 .small_logo{
   vertical-align: bottom;
   width:2.25em;
@@ -141,6 +154,7 @@ hr {
   text-transform: uppercase; /*Not working*/
   font-size: 7em;
   color: #FFFFFF;
+  text-shadow: 0 2px rgba(0,0,0,.6);
 }
 .head-text>h1>span {
   color: #dda037;
