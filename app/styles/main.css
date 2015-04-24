@@ -63,6 +63,10 @@ hr {
 .thumb_img{
   border-radius:3px;
   box-shadow: 1px 1px 3px rgba(0,0,0,.15);
+  opacity:1.0;
+}
+.side-img:hover, .thumb_img:hover{
+  opacity:.75;
 }
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -230,7 +234,10 @@ hr {
 }
 .side-img{
   float: left;
-  padding-right: 20px;
+  margin-right: 20px;
+  border-radius:3px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+  opacity: 1.0;
 }
 .row-cols{
   padding-top: 60px;
@@ -254,6 +261,7 @@ hr {
   margin-right: auto;
   width: 60%;
   display: block;
+  text-decoration: none;
 }
 .btn-xl:hover{
   background-color: #B3904F;
@@ -270,6 +278,7 @@ hr {
   padding-bottom: 10px;
   width:100%;
   display: block;
+  text-decoration: none;
 }
 .btn-view:hover{
   background-color: #B3904F;
@@ -287,6 +296,7 @@ hr {
   width: 50%;
   margin: 0 auto;
   display:block;
+  text-decoration: none;
 }
 .btn-view-gray:hover{
   color:#FFFFFF;
@@ -303,6 +313,7 @@ hr {
   padding-bottom: 10px;
   display:block;
   width:100%;
+  text-decoration: none;
 }
 .btn-view-col:hover{
   color:#FFFFFF;
@@ -319,10 +330,12 @@ hr {
   float:right;
   margin-right:15px;
   margin-top:7px;
+  text-decoration: none;
 }
 .btn-nav:hover{
   background-color: #B3904F;
   text-decoration: none;
+  color:#FFFFFF;
 }
 .press-me{
   color:#FFFFFF;

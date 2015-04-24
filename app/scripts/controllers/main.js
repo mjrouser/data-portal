@@ -73,8 +73,8 @@ angular.module('dataPortalApp')
      
      angular.element('.viz-title-1').responsiveEqualHeightGrid();
      angular.element('.viz-content-1').responsiveEqualHeightGrid();
-     angular.element('.viz-title-2').responsiveEqualHeightGrid();
-     angular.element('.viz-content-2').responsiveEqualHeightGrid();
+     // angular.element('.viz-title-2').responsiveEqualHeightGrid();
+     // angular.element('.viz-content-2').responsiveEqualHeightGrid();
      angular.element('.viz-title-3').responsiveEqualHeightGrid();
      angular.element('.viz-content-3').responsiveEqualHeightGrid();
 
