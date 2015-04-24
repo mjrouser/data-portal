@@ -20,54 +20,7 @@ angular.module('dataPortalApp')
 
      };
 
-
-/*
-
-
-  	//Functions for in-page nav
-     $scope.gotoLearn = function(){
-     	$location.hash('learn');
-
-     	$anchorScroll();
        
-                 
-     };
-     $scope.gotoExplore = function(){
-     	$location.hash('explore');
-
-     	$anchorScroll();
-
-                   
-
-     };
-     $scope.gotoBuild = function(){
-     	$location.hash('build');
-
-     	$anchorScroll();
-
-                   
-
-     };
-     */
- /*
-    
-     //sticky for orange sub-nav
-     angular.element(document).ready(function(){
-     	angular.element('#sticky').affix({
-     		offset:{
-     			top: 475
-     		}
-     	});
-     });
-
-
-
-          angular.element('#sticky').affix({
-               offset:{
-                    top: 475
-               }
-          });
-  */       
           
      //keeps column elements at same hight to align buttons
      
@@ -77,12 +30,6 @@ angular.module('dataPortalApp')
      // angular.element('.viz-content-2').responsiveEqualHeightGrid();
      angular.element('.viz-title-3').responsiveEqualHeightGrid();
      angular.element('.viz-content-3').responsiveEqualHeightGrid();
-
-     
-        
-
-
-
 
 
   });
