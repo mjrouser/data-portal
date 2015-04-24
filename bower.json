@@ -13,7 +13,8 @@
     "angular-sanitize": "^1.3.0",
     "angular-touch": "^1.3.0",
     "javascript-equal-height-responsive-rows": "*",
-    "fontawesome": "~4.3.0"
+    "fontawesome": "~4.3.0",
+    "angular-ui-utils": "bower-scrollfix"
   },
   "devDependencies": {
     "angular-mocks": "^1.3.0"

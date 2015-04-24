@@ -17,7 +17,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.scrollfix'
   ])
   .config(function ($routeProvider) {
     $routeProvider
