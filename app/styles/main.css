@@ -152,7 +152,7 @@ hr {
   color: #FFFFFF;
   border-top: 3px solid #FFFFFF;
   border-bottom: 3px solid #FFFFFF;
-  height: 50px;
+  height: 46px;
   text-align: center;
   font-size: 2em;
   z-index: 1000;
@@ -170,12 +170,26 @@ hr {
   border-right: 3px solid #FFFFFF;
   padding: 0px;
 }
-/*.sub-bar{
+/*
+.sub-bar{
   height: 44px;
 }*/
 .sub-bar a{
   text-decoration: none;
   cursor: pointer;
+  color: #FFF;
+  background-color: #dda037;
+}
+.nav > li > a {
+  padding: 0px;
+}
+.nav > li > a {
+  border-radius: 0px;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+  background-color: #B3904F;
+  text-decoration: none;
+  color:#FFFFFF;
 }
 .bar-wrapper > .col-md-4{
   padding: 0px;
