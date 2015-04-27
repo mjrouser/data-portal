@@ -86,14 +86,29 @@ hr {
 /*This may be temporary*/
 .head-grp{
 }
-.navbar{
+.top-bar{
+  height: 60px;
   margin: 0;
   border: 0;
   border-radius: 0;
   border-bottom: 3px solid #FFFFFF;
-}
-.navbar-default{
   background-color: #404040;
+}
+.top-bar .brand{
+  margin-left:15px;
+  color:#FFFFFF;
+  line-height: 1em;
+  margin-top:10px;
+  float:left;
+}
+.top-bar .brand div{
+  padding-left:10px;
+  padding-top:3px;
+  float:left;
+  font-size: .75em;
+}
+.top-bar .brand a, .footer a{
+  color:#d0d0d0;
 }
 
 .img-grp{
@@ -332,10 +347,38 @@ hr {
   text-decoration: none;
 }
 
+@media screen and (max-width: 767px){
+  .nav-justified > li > a {
+  margin-bottom: 0px;
+  border-bottom: 3px;
+  border-bottom-color: #FFF;
+  border-bottom-style: solid;
+  }.nav-pills > li + li {
+   margin-left: 0px; 
+  }
+  .sub-bar-center{
+    border: 0px;
+
+  }
+  .head-grp{
+    display: none;
+  }
+  .content-wrapper{
+    margin-top: 0;
+  }
+
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
     max-width: 730px;
+  }
+  .head-grp{
+    display: none;
+  }
+  .content-wrapper{
+    margin-top: 0;
   }
 
   /* Remove the padding we set earlier */
@@ -347,5 +390,12 @@ hr {
   }
 
 }
+@media screen and (max-width: 991px){
+  .btn-view-col{
+    margin-bottom: 20px;
+  }
+}
+
+
 
 
