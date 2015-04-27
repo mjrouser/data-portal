@@ -1,3 +1,10 @@
+/*Test CSS*/
+
+.cartodb-timeslider{
+  display:none;
+}
+
+/*Main CSS*/
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -31,6 +38,9 @@ hr {
   min-width:100%;
   height:27em;
 }
+.header-viz{
+  float:left;
+}
 .caption{
   font-family: "Adobe Caslon Pro", "adobe-caslon-pro", "Garamond", "Times New Roman", serif;
   font-style: italic;
@@ -63,6 +73,10 @@ hr {
 .thumb_img{
   border-radius:3px;
   box-shadow: 1px 1px 3px rgba(0,0,0,.15);
+  opacity:1.0;
+}
+.side-img:hover, .thumb_img:hover{
+  opacity:.75;
 }
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -86,26 +100,45 @@ hr {
 /*This may be temporary*/
 .head-grp{
 }
-.navbar{
+.top-bar{
+  height: 60px;
   margin: 0;
   border: 0;
   border-radius: 0;
   border-bottom: 3px solid #FFFFFF;
-}
-.navbar-default{
   background-color: #404040;
 }
-
+.top-bar .brand{
+  margin-left:15px;
+  color:#FFFFFF;
+  line-height: 1em;
+  margin-top:10px;
+  float:left;
+}
+.top-bar .brand div{
+  padding-left:10px;
+  padding-top:3px;
+  float:left;
+  font-size: .75em;
+}
+.top-bar .brand a, .footer a{
+  color:#d0d0d0;
+}
 .img-grp{
    position: absolute;
    width:1280px; /*This seems weird, why is it absolute?*/
    z-index:-1;
-   clip:rect(0px 1280px 400px 0);
+   clip: rect(0px 1280px 400px 0);
+}
+
+.fallback-header-img{
+  z-index: -1;
 }
 .small_logo{
   vertical-align: bottom;
   width:2.25em;
   height:2.25em;
+  float:left;
 }
 .head-text{
    position: relative;
@@ -122,6 +155,7 @@ hr {
   text-transform: uppercase; /*Not working*/
   font-size: 7em;
   color: #FFFFFF;
+  text-shadow: 0 2px rgba(0,0,0,.6);
 }
 .head-text>h1>span {
   color: #dda037;
@@ -229,7 +263,10 @@ hr {
 }
 .side-img{
   float: left;
-  padding-right: 20px;
+  margin-right: 20px;
+  border-radius:3px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+  opacity: 1.0;
 }
 .row-cols{
   padding-top: 60px;
@@ -253,6 +290,7 @@ hr {
   margin-right: auto;
   width: 60%;
   display: block;
+  text-decoration: none;
 }
 .btn-xl:hover{
   background-color: #B3904F;
@@ -269,6 +307,7 @@ hr {
   padding-bottom: 10px;
   width:100%;
   display: block;
+  text-decoration: none;
 }
 .btn-view:hover{
   background-color: #B3904F;
@@ -286,6 +325,7 @@ hr {
   width: 50%;
   margin: 0 auto;
   display:block;
+  text-decoration: none;
 }
 .btn-view-gray:hover{
   color:#FFFFFF;
@@ -302,6 +342,7 @@ hr {
   padding-bottom: 10px;
   display:block;
   width:100%;
+  text-decoration: none;
 }
 .btn-view-col:hover{
   color:#FFFFFF;
@@ -313,12 +354,17 @@ hr {
   background-color: #dda037;
   border-radius: 3px;
   color: #FFFFFF;
-  padding: 5px 10px;
+  padding: 0 10px;
   font-size: 1.5em;
+  float:right;
+  margin-right:15px;
+  margin-top:7px;
+  text-decoration: none;
 }
 .btn-nav:hover{
   background-color: #B3904F;
   text-decoration: none;
+  color:#FFFFFF;
 }
 .press-me{
   color:#FFFFFF;
@@ -330,6 +376,14 @@ hr {
   text-decoration: none;
 }
 
+
+
+
+@media screen and (max-width: 767px){
+    .btn-view-col{
+    margin-bottom: 20px;
+  }
+}
 
 
 

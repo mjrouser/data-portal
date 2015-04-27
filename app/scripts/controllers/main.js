@@ -16,23 +16,17 @@ angular.module('dataPortalApp')
           
           $location.hash(id);
           $anchorScroll();
-
      };     
+
           
      //keeps column elements at same hight to align buttons
      
      angular.element('.viz-title-1').responsiveEqualHeightGrid();
      angular.element('.viz-content-1').responsiveEqualHeightGrid();
-     angular.element('.viz-title-2').responsiveEqualHeightGrid();
-     angular.element('.viz-content-2').responsiveEqualHeightGrid();
+     // angular.element('.viz-title-2').responsiveEqualHeightGrid();
+     // angular.element('.viz-content-2').responsiveEqualHeightGrid();
      angular.element('.viz-title-3').responsiveEqualHeightGrid();
      angular.element('.viz-content-3').responsiveEqualHeightGrid();
-
-     
-        
-
-
-
 
 
   });

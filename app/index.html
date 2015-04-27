@@ -25,36 +25,29 @@
 
     <div class="body-wrapper">
     <div class="header">
-      <div class="navbar navbar-default" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navish">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#/">
+      <div class="top-bar">
+          <div class="brand">
+            <a href="http://www.mass.gov/">
               <img class="small_logo" src="images/ma_seal_small.png" />
-              MASS<span class="">data</span>
             </a>
+            <div>
+              This is an official application of the Commonwealth of Massachusetts <br />
+                <a href ="http://www.mass.gov/portal/" target="_blank">Executive Office for Administration and Finance (ANF)</a>
+            </div>
           </div>
-
-          <div class="collapse navbar-collapse" id="navish">
-
-            <ul class="nav navbar-nav navbar-right">
           
-              <li><a ng-href="#/"><div class="btn-nav">ENTER DATA CATALOG</div></a></li>
-            </ul>
-          </div>
-        </div>
+              <a href="#/" class="btn-nav">ENTER DATA CATALOG</a>
       </div>
     </div>
     <div class="head-grp">
-       <div class="img-grp">
-          <img class="img-responsive head-img"  src="images/statehouse.jpg" alt="Head Image" role="img">
+
+      <!-- In case of bad connection to MassGIS -->
+       <div class="img-grp fallback-header-img">
+          <img class="img-responsive"  src="images/plot_map_blue.png" alt="Head Image" role="img">
+
        </div>
+       <!-- Regular header -->
+       <iframe class="img-grp" width='100%' height='400' frameborder='0' src='header_map.html' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> 
        <div class="head-text">
           <h1>Welcome to Mass<span>Data<span></h1>
           <div class="caption main_caption">The open data portal for the Commonwealth of Massachusetts</div>
@@ -65,7 +58,8 @@
     
     <div class="footer">
       <div class="container">
-        <a href="https://flic.kr/p/ip6vv" target="_blank">MA State House picture</a> taken by Flickr user <a href="https://www.flickr.com/photos/harshlight/" target="_blank">Harshlight</a> and licensed under <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">Creative Commons</a>. The image was slightly modified from its original state.
+        Header animation created by Sienna Svob of MassGIS.
+        <!-- <a href="https://flic.kr/p/ip6vv" target="_blank">MA State House picture</a> taken by Flickr user <a href="https://www.flickr.com/photos/harshlight/" target="_blank">Harshlight</a> and licensed under <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">Creative Commons</a>. The image was slightly modified from its original state. -->
         <br /><br />
       </div>
     </div>
