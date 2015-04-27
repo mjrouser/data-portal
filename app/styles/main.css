@@ -130,6 +130,7 @@ hr {
    z-index:-1;
    clip:rect(0px 1280px 400px 0);
 }
+
 .fallback-header-img{
   z-index: -1;
 }
