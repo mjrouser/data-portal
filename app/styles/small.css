@@ -358,7 +358,9 @@ hr {
   }
   .sub-bar-center{
     border: 0px;
-
+  }
+  .header{
+    padding: 0px;
   }
   .head-grp{
     display: none;
