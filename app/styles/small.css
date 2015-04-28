@@ -336,12 +336,17 @@ hr {
   background-color: #dda037;
   border-radius: 3px;
   color: #FFFFFF;
-  padding: 5px 10px;
+  padding: 0px 10px;
   font-size: 1.5em;
+  float:right;
+  margin-right:15px;
+  margin-top:7px;
+  text-decoration: none;
 }
 .btn-nav:hover{
   background-color: #B3904F;
   text-decoration: none;
+  color:#FFFFFF;
 }
 .press-me{
   color:#FFFFFF;
@@ -394,9 +399,7 @@ hr {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
+
   .head-grp{
     display: none;
   }
