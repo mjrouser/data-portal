@@ -63,6 +63,7 @@ hr {
 .thumb_img{
   border-radius:3px;
   box-shadow: 1px 1px 3px rgba(0,0,0,.15);
+  margin: 0 auto;
 }
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -95,7 +96,7 @@ hr {
   background-color: #404040;
 }
 .top-bar .brand{
-  margin-left:15px;
+  margin-left:5px;
   color:#FFFFFF;
   line-height: 1em;
   margin-top:10px;
@@ -182,7 +183,12 @@ hr {
   position: fixed;
   top: 0px;  
 }
-
+/*
+.section-bar::after{
+  display: block;
+  clear: both;
+}
+*/
 .bar-wrapper{
   border-left: 3px solid #FFFFFF;
   border-right: 3px solid #FFFFFF;
@@ -347,7 +353,16 @@ hr {
   text-decoration: none;
 }
 
+@media screen and (max-width: 600px){
+  .top-bar>.btn-nav{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 767px){
+  .nav-wrap{
+    height: 129px;
+  }
   .nav-justified > li > a {
   margin-bottom: 0px;
   border-bottom: 3px;
@@ -367,6 +382,12 @@ hr {
   }
   .content-wrapper{
     margin-top: 0;
+  }
+  .section{
+    padding-top: 75px;
+  }
+  .side-img{
+    margin: 0 auto;
   }
 
 }
@@ -395,6 +416,10 @@ hr {
 @media screen and (max-width: 991px){
   .btn-view-col{
     margin-bottom: 20px;
+  }
+  .side-img{
+    float: none;
+    margin: 0 auto;
   }
 }
 
