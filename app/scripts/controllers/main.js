@@ -13,14 +13,11 @@ angular.module('dataPortalApp')
 
      //Scrolls page to the selected section
      $scope.scrollTo = function(id) {
-          //var old = $location.hash();
+          
           $location.hash(id);
           $anchorScroll();
-          //$location.hash(old);
+     };     
 
-     };
-
-       
           
      //keeps column elements at same hight to align buttons
      
