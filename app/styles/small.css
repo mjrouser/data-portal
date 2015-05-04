@@ -122,6 +122,12 @@ hr {
   vertical-align: bottom;
   width:2.25em;
   height:2.25em;
+  float:left;
+  margin-left: 5px;
+}
+.small_logo_two{
+  vertical-align: bottom;
+  float:left;
 }
 .head-img{
   display: none;
@@ -157,6 +163,21 @@ hr {
   color: #777;
   border-top: 1px solid #e5e5e5;
   background-color: #404040;
+}
+.links{
+  float:right;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+.links>li{
+  display: inline;
+}
+.links>li>a{
+  text-decoration: none;
+  cursor: pointer;
+  padding-left: 15px;
 }
 
 .container-narrow > hr {
@@ -356,11 +377,22 @@ hr {
   background-color: #B3904F;
   text-decoration: none;
 }
-
+@media screen and (max-width: 350px){
+  .top-bar{
+    height: 100px;
+  }
+}
+@media screen and (max-width: 488px){
+  .top-bar{
+    height: 85px;
+  }
+}
 @media screen and (max-width: 600px){
+ /*
   .top-bar>.btn-nav{
     display: none;
   }
+  */
   .headliner p{
     font-size: 1.25em;
     padding: 50px 0;
@@ -377,6 +409,11 @@ hr {
    padding-top: 10%;
   }
 
+}
+@media screen and (max-width: 666px){
+  .top-bar>.btn-nav{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px){
