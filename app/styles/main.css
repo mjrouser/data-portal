@@ -86,20 +86,18 @@ hr {
   padding-right: 15px;
 }
 
-/* Custom page header */
+/* Custom page header 
 .header {
   max-width: 1280px;
   border-bottom: 1px solid #e5e5e5;
 }
-/* Make the masthead heading the same height as the navigation */
+
 .header {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
 }
-/*This may be temporary*/
-.head-grp{
-}
+*/
 .top-bar{
   height: 60px;
   margin: 0;
@@ -108,25 +106,29 @@ hr {
   border-bottom: 3px solid #FFFFFF;
   background-color: #404040;
 }
-.top-bar .brand{
+.top-bar .brand,
+.top-bar .official{
   margin-left:15px;
   color:#FFFFFF;
   line-height: 1em;
   margin-top:10px;
   float:left;
 }
-.top-bar .brand div{
+
+.top-bar .official{
   padding-left:10px;
   padding-top:3px;
   float:left;
   font-size: .75em;
 }
-.top-bar .brand a, .footer a{
+.top-bar .brand a,
+.top-bar .official a,
+.footer a{
   color:#d0d0d0;
 }
 .img-grp{
    position: absolute;
-   width:1280px; /*This seems weird, why is it absolute?*/
+   width:1280px;
    z-index:-1;
    clip: rect(0px 1280px 400px 0);
 }
@@ -396,32 +398,3 @@ hr {
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1000px;
-  }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
-}
