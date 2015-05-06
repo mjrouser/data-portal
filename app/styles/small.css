@@ -27,12 +27,7 @@ hr {
 .fa{
   color:#000;
 }
-/*
-.video{
-  min-width:100%;
-  height:27em;
-}
-*/
+
 .caption{
   font-family: "Adobe Caslon Pro", "adobe-caslon-pro", "Garamond", "Times New Roman", serif;
   font-style: italic;
@@ -66,27 +61,19 @@ hr {
   border-radius:3px;
   box-shadow: 1px 1px 3px rgba(0,0,0,.15);
   margin: 0 auto;
+  opacity:1.0;
+}
+.side-img:hover, .thumb_img:hover{
+  opacity:.75;
 }
 /* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
+
 .marketing,
 .footer {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* Custom page header 
-.header {
-  max-width: 1280px;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.header {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-}
-*/
 .top-bar{
   height: 60px;
   margin: 0;
@@ -118,7 +105,7 @@ hr {
 
 .img-grp{
    position: absolute;
-   width:1280px; /*This seems weird, why is it absolute?*/
+   width:1280px; 
    z-index:-1;
    clip:rect(0px 1280px 400px 0);
 }
@@ -208,20 +195,11 @@ hr {
   position: fixed;
   top: 0px;  
 }
-/*
-.section-bar::after{
-  display: block;
-  clear: both;
-}
-*/
 .bar-wrapper{
   border-left: 3px solid #FFFFFF;
   border-right: 3px solid #FFFFFF;
   padding: 0px;
 }
-/*.sub-bar{
-  height: 44px;
-}*/
 .sub-bar a{
   text-decoration: none;
   cursor: pointer;

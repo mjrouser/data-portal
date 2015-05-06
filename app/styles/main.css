@@ -1,10 +1,3 @@
-/*Test CSS*/
-
-.cartodb-timeslider{
-  display:none;
-}
-
-/*Main CSS*/
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -34,12 +27,7 @@ hr {
 .fa{
   color:#000;
 }
-/*
-.video{
-  min-width:100%;
-  height:27em;
-}
-*/
+
 .header-viz{
   float:left;
 }
@@ -76,34 +64,21 @@ hr {
   border-radius:3px;
   box-shadow: 1px 1px 3px rgba(0,0,0,.15);
   opacity:1.0;
+  margin: 0 auto;
 }
 .side-img:hover, .thumb_img:hover{
   opacity:.75;
 }
 /* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
 .marketing,
 .footer {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* Custom page header 
-.header {
-  max-width: 1280px;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.header {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-}
-*/
 .top-bar{
   height: 60px;
   margin: 0;
-  border: 0;
   border-radius: 0;
   border-bottom: 3px solid #FFFFFF;
   background-color: #404040;
@@ -228,10 +203,6 @@ hr {
   border-right: 3px solid #FFFFFF;
   padding: 0px;
 }
-/*
-.sub-bar{
-  height: 44px;
-}*/
 .sub-bar a{
   text-decoration: none;
   cursor: pointer;
@@ -261,8 +232,7 @@ hr {
   text-align: center;
   font-size: 2.5em;
   padding: 50px 0;
-/*  padding: 50px 25px;
-*/}
+}
 
 .learn,
 .build{
